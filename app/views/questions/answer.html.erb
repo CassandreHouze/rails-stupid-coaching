@@ -1,0 +1,17 @@
+<div class="container">
+<div class="container border py-3 message-div">
+  <p><strong>You said : </strong></p>
+  <p> - <%= @question %></p>
+</div>
+
+<br>
+
+<div class="container border py-3 answer message-div">
+  <p><strong>Coach answer : </strong></p>
+  <p> - <%= @answer %></p>
+</div>
+
+<div class="container text-center py-3">
+  <%= link_to "Ask a new question", ask_path %>
+</div>
+</div>

@@ -1,0 +1,59 @@
+// $gray: #F4F4F4;
+
+// body {
+//   background-color: $gray;
+// }
+
+// h1 {
+//   color: blue;
+// }
+
+
+// .banner {
+//   background: red;
+//   h1 {
+//     font-size: 50px;
+//   }
+// }
+
+// a {
+//   color: $gray;
+//   &:hover {
+//     color: black;
+//   }
+//   text-align: center;
+// }
+
+
+body {
+  background-color: #F4F4F4;
+}
+
+h1 {
+    font-size: 50px;
+    color: #F4F4F4;
+  }
+
+.banner {
+  background: #C8553D;
+}
+
+a {
+  color: #424651;
+  &:hover {
+    color: black;
+  }
+  text-align: center;
+}
+
+p {
+  color: #424651;
+}
+
+.answer {
+  background-color: #DFF2D8
+}
+
+.message-div {
+  border-left: 5px solid #F4F4F4;
+}
